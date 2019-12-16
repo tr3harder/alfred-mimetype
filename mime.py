@@ -32,7 +32,7 @@ def main(wf):
             mime_type = 'application/x-php'
         else:
             mime_type = 'Add this extension'
-    wf.add_item(title=mime_type, subtitle=mime_type, largetext=mime_type)        
+    wf.add_item(title=mime_type, subtitle=mime_type, largetext=mime_type, copytext=mime_type)        
     # Send output to Alfred. You can only call this once.
     # Well, you *can* call it multiple times, but subsequent calls
     # are ignored (otherwise the JSON sent to Alfred would be invalid).
